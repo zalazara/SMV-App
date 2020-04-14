@@ -1,0 +1,20 @@
+PODS:
+  - Mocker (1.0.0)
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - Mocker (~> 1.0.0)
+  - Swinject (= 2.7.1)
+
+SPEC REPOS:
+  trunk:
+    - Mocker
+    - Swinject
+
+SPEC CHECKSUMS:
+  Mocker: 58560cc516f6240e92492dad66f295e7cdd7cdb2
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: b80d1a9e95838c58d6754299ba36c50ebea07793
+
+COCOAPODS: 1.9.1

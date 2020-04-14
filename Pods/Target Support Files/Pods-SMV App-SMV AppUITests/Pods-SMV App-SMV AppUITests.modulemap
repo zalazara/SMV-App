@@ -1,0 +1,6 @@
+framework module Pods_SMV_App_SMV_AppUITests {
+  umbrella header "Pods-SMV App-SMV AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

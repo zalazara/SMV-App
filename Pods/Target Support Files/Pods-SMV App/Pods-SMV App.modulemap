@@ -1,0 +1,6 @@
+framework module Pods_SMV_App {
+  umbrella header "Pods-SMV App-umbrella.h"
+
+  export *
+  module * { export * }
+}
