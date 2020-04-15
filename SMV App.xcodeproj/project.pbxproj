@@ -17,7 +17,7 @@
 		D470D3972446303400FB84E8 /* SMV_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3962446303400FB84E8 /* SMV_AppUITests.swift */; };
 		D470D3BE244637C100FB84E8 /* EmployeeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3B4244637C100FB84E8 /* EmployeeDetailInteractor.swift */; };
 		D470D3BF244637C100FB84E8 /* EmployeeDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3B5244637C100FB84E8 /* EmployeeDetailProtocols.swift */; };
-		D470D3C0244637C100FB84E8 /* EmployeeDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3B6244637C100FB84E8 /* EmployeeDetailModule.swift */; };
+		D470D3C0244637C100FB84E8 /* EmployeeDetailModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3B6244637C100FB84E8 /* EmployeeDetailModuleAssembly.swift */; };
 		D470D3C1244637C100FB84E8 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3B8244637C100FB84E8 /* EmployeeDetailView.swift */; };
 		D470D3C2244637C100FB84E8 /* EmployeeDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D470D3B9244637C100FB84E8 /* EmployeeDetailView.xib */; };
 		D470D3C3244637C100FB84E8 /* EmployeeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3BB244637C100FB84E8 /* EmployeeDetailRouter.swift */; };
@@ -28,6 +28,12 @@
 		D470D3D2244646E000FB84E8 /* EmployeeServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3D0244646E000FB84E8 /* EmployeeServiceRouter.swift */; };
 		D470D3D3244646E000FB84E8 /* EmployeeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3D1244646E000FB84E8 /* EmployeeAPIService.swift */; };
 		D470D3D6244646F600FB84E8 /* EmployeeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3D5244646F600FB84E8 /* EmployeeEntity.swift */; };
+		D470D3DA24464B0000FB84E8 /* GetEmployeeSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = D470D3D824464B0000FB84E8 /* GetEmployeeSuccess.json */; };
+		D470D3DB24464B0000FB84E8 /* GetEmployeeFailure.json in Resources */ = {isa = PBXBuildFile; fileRef = D470D3D924464B0000FB84E8 /* GetEmployeeFailure.json */; };
+		D470D3DD2446511700FB84E8 /* EmployeApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3DC2446511700FB84E8 /* EmployeApiServiceProtocol.swift */; };
+		D470D3DF2446518700FB84E8 /* EmployeeAPIServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3DE2446518700FB84E8 /* EmployeeAPIServiceMock.swift */; };
+		D470D3E324465CAC00FB84E8 /* SMV_DetailModuleUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3E224465CAC00FB84E8 /* SMV_DetailModuleUITest.swift */; };
+		D470D3E724468D6200FB84E8 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D470D3E624468D6200FB84E8 /* ApplicationAssembly.swift */; };
 		F197FF0909F67FF1BF8B4AA8 /* Pods_SMV_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841B090E45BC5A695020AC50 /* Pods_SMV_AppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +75,7 @@
 		D470D3982446303400FB84E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D470D3B4244637C100FB84E8 /* EmployeeDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailInteractor.swift; sourceTree = "<group>"; };
 		D470D3B5244637C100FB84E8 /* EmployeeDetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailProtocols.swift; sourceTree = "<group>"; };
-		D470D3B6244637C100FB84E8 /* EmployeeDetailModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailModule.swift; sourceTree = "<group>"; };
+		D470D3B6244637C100FB84E8 /* EmployeeDetailModuleAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailModuleAssembly.swift; sourceTree = "<group>"; };
 		D470D3B8244637C100FB84E8 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
 		D470D3B9244637C100FB84E8 /* EmployeeDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeDetailView.xib; sourceTree = "<group>"; };
 		D470D3BB244637C100FB84E8 /* EmployeeDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailRouter.swift; sourceTree = "<group>"; };
@@ -80,6 +86,12 @@
 		D470D3D0244646E000FB84E8 /* EmployeeServiceRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeServiceRouter.swift; sourceTree = "<group>"; };
 		D470D3D1244646E000FB84E8 /* EmployeeAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeAPIService.swift; sourceTree = "<group>"; };
 		D470D3D5244646F600FB84E8 /* EmployeeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeEntity.swift; sourceTree = "<group>"; };
+		D470D3D824464B0000FB84E8 /* GetEmployeeSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetEmployeeSuccess.json; sourceTree = "<group>"; };
+		D470D3D924464B0000FB84E8 /* GetEmployeeFailure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetEmployeeFailure.json; sourceTree = "<group>"; };
+		D470D3DC2446511700FB84E8 /* EmployeApiServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeApiServiceProtocol.swift; sourceTree = "<group>"; };
+		D470D3DE2446518700FB84E8 /* EmployeeAPIServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAPIServiceMock.swift; sourceTree = "<group>"; };
+		D470D3E224465CAC00FB84E8 /* SMV_DetailModuleUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMV_DetailModuleUITest.swift; sourceTree = "<group>"; };
+		D470D3E624468D6200FB84E8 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		E80BC1600ED8E617DBDC7A89 /* Pods_SMV_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMV_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A54708483FD8F298D6580D /* Pods-SMV App-SMV AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMV App-SMV AppUITests.release.xcconfig"; path = "Target Support Files/Pods-SMV App-SMV AppUITests/Pods-SMV App-SMV AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FFADC0FB64B21D0E2B0C672B /* Pods-SMV App-SMV AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMV App-SMV AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SMV App-SMV AppUITests/Pods-SMV App-SMV AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +182,7 @@
 		D470D3952446303400FB84E8 /* SMV AppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				D470D3E224465CAC00FB84E8 /* SMV_DetailModuleUITest.swift */,
 				D470D3962446303400FB84E8 /* SMV_AppUITests.swift */,
 				D470D3982446303400FB84E8 /* Info.plist */,
 			);
@@ -196,8 +209,8 @@
 		D470D3A62446379D00FB84E8 /* EmployeeDetail */ = {
 			isa = PBXGroup;
 			children = (
-				D470D3B6244637C100FB84E8 /* EmployeeDetailModule.swift */,
-				D470D3B5244637C100FB84E8 /* EmployeeDetailProtocols.swift */,
+				D470D3E92446957B00FB84E8 /* Protocols */,
+				D470D3E82446956700FB84E8 /* Configurator */,
 				D470D3CF244646E000FB84E8 /* Service */,
 				D470D3D4244646F600FB84E8 /* Entities */,
 				D470D3B3244637C100FB84E8 /* Interactor */,
@@ -245,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				D470D3C6244646C700FB84E8 /* NetworkLayer */,
+				D470D3E624468D6200FB84E8 /* ApplicationAssembly.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -278,8 +292,11 @@
 		D470D3CF244646E000FB84E8 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D470D3D724464B0000FB84E8 /* Mocks */,
 				D470D3D0244646E000FB84E8 /* EmployeeServiceRouter.swift */,
 				D470D3D1244646E000FB84E8 /* EmployeeAPIService.swift */,
+				D470D3DC2446511700FB84E8 /* EmployeApiServiceProtocol.swift */,
+				D470D3DE2446518700FB84E8 /* EmployeeAPIServiceMock.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -290,6 +307,31 @@
 				D470D3D5244646F600FB84E8 /* EmployeeEntity.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		D470D3D724464B0000FB84E8 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D470D3D824464B0000FB84E8 /* GetEmployeeSuccess.json */,
+				D470D3D924464B0000FB84E8 /* GetEmployeeFailure.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		D470D3E82446956700FB84E8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D470D3B6244637C100FB84E8 /* EmployeeDetailModuleAssembly.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D470D3E92446957B00FB84E8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D470D3B5244637C100FB84E8 /* EmployeeDetailProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F9CAE3C54157108C474EFC77 /* Pods */ = {
@@ -414,9 +456,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D470D3DA24464B0000FB84E8 /* GetEmployeeSuccess.json in Resources */,
 				D470D3812446303400FB84E8 /* LaunchScreen.storyboard in Resources */,
 				D470D3C2244637C100FB84E8 /* EmployeeDetailView.xib in Resources */,
 				D470D37E2446303400FB84E8 /* Assets.xcassets in Resources */,
+				D470D3DB24464B0000FB84E8 /* GetEmployeeFailure.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,11 +597,14 @@
 				D470D3C3244637C100FB84E8 /* EmployeeDetailRouter.swift in Sources */,
 				D470D3D3244646E000FB84E8 /* EmployeeAPIService.swift in Sources */,
 				D470D3C4244637C100FB84E8 /* EmployeeDetailPresenter.swift in Sources */,
+				D470D3E724468D6200FB84E8 /* ApplicationAssembly.swift in Sources */,
 				D470D3752446303100FB84E8 /* AppDelegate.swift in Sources */,
 				D470D3D2244646E000FB84E8 /* EmployeeServiceRouter.swift in Sources */,
 				D470D3C1244637C100FB84E8 /* EmployeeDetailView.swift in Sources */,
-				D470D3C0244637C100FB84E8 /* EmployeeDetailModule.swift in Sources */,
+				D470D3DF2446518700FB84E8 /* EmployeeAPIServiceMock.swift in Sources */,
+				D470D3C0244637C100FB84E8 /* EmployeeDetailModuleAssembly.swift in Sources */,
 				D470D3772446303100FB84E8 /* SceneDelegate.swift in Sources */,
+				D470D3DD2446511700FB84E8 /* EmployeApiServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +621,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D470D3972446303400FB84E8 /* SMV_AppUITests.swift in Sources */,
+				D470D3E324465CAC00FB84E8 /* SMV_DetailModuleUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

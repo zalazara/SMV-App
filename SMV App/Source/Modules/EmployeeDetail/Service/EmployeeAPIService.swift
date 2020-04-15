@@ -1,17 +1,21 @@
 import Foundation
 
-
-class EmployeeAPIService {
+public class EmployeeAPIService : EmployeeAPIServiceProtocol {
     
-    init(){}
+    public var session: URLSession!
+    
+    init(){
+        session = URLSession(configuration: .default)
+    }
     
     public func fetchEmployee(id: String, completionHandler:@escaping (Result<EmployeeEntity, Error>) -> ()){
         
         let router = EmployeeServiceRouter()
         router.path.append(id)
         
-        NetworkLayer.request(router: router){ (result: Result<EmployeeEntity, Error>) in
+        NetworkLayer.request(router: router, urlSession: session){ (result: Result<EmployeeEntity, Error>) in
             completionHandler(result)
         }
     }
 }
+

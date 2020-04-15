@@ -3,10 +3,10 @@ import UIKit
 class EmployeeDetailInteractor: EmployeeDetailInteractorProtocol {
 
     weak var presenter: EmployeeDetailPresenterProtocol?
-    var employeeService: EmployeeAPIService = EmployeeAPIService()
+    var employeeService: EmployeeAPIServiceProtocol?
     
     func fetchEmployeeDetail(id: String) {
-        employeeService.fetchEmployee(id: id) { (result: Result<EmployeeEntity, Error>) in
+        employeeService?.fetchEmployee(id: id) { (result: Result<EmployeeEntity, Error>) in
             switch result {
                 
             case .success(let employee):

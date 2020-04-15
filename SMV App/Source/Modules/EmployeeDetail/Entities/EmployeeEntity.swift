@@ -1,6 +1,6 @@
 import Foundation
 
-struct EmployeeEntity: Codable {
+public struct EmployeeEntity: Codable {
     var id: String
     var employee_name: String
     var employee_salary: String
@@ -19,7 +19,7 @@ struct EmployeeEntity: Codable {
         case data
     }
     
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: DataKeys.self)
         let dataInfo = try values.nestedContainer(keyedBy: CodingKeys.self, forKey: .data)
         

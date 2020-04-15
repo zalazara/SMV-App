@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let vc = EmployeeDetailModule.build()
+        let vc = ApplicationAssembly.assembler.resolver.resolve(EmployeeDetailViewProtocol.self)
         
         window = UIWindow(windowScene: windowScene)
         window!.rootViewController = vc
